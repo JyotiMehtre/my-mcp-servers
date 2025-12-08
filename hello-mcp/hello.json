@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "hello-mcp": {
+      "command": "uv",
+      "args": [
+        "run",
+        "D:\\classnotes\\hello-mcp\\.venv\\Scripts\\python.exe",
+        "D:\\classnotes\\hello-mcp\\hello.py"
+      ],
+      "cwd": "D:\\classnotes\\hello-mcp"
+    }
+  }
+}
