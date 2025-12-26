@@ -1,0 +1,21 @@
+{
+  "mcpServers": {
+    "hello-mcp": {
+      "command": "uv",
+      "args": [
+        "run",
+        "D:\\classnotes\\my-mcp-servers\\swiggy-mcp\\.venv\\Scripts\\python.exe",
+        "D:\\classnotes\\my-mcp-servers\\swiggy-mcp\\hello.py"
+      ],
+      "cwd": "D:\\classnotes\\my-mcp-servers\\swiggy-mcp\\hello-mcp"
+    },
+	"swiggy-mcp": {
+      "command": "npx",
+      "args": [
+		"-y",
+        "mcp-remote",
+        "http://localhost:8000/mcp/"
+      ]
+    }
+  }
+}
